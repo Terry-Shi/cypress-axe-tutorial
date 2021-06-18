@@ -1,0 +1,31 @@
+{
+	"name": "cypress-axe-tutorial",
+	"version": "1.0.0",
+	"description": "try with cypress axe",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"cypress-automation:open": "cypress open -e env=AUTOMATION --config-file cypress-config.json",
+		"cypress-automation:run": "cypress run -e env=AUTOMATION --config-file cypress-config.json --headless --browser chrome"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:Terry-Shi/cypress-axe-tutorial.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"babel": "6.23.0",
+		"cypress": "6.3.0",
+		"cypress-file-upload": "5.0.2",
+		"cypress-iframe": "1.0.1",
+		"eslint": "^5.16.0",
+		"mocha": "^8.2.1",
+		"mochawesome": "^6.2.1",
+		"mochawesome-merge": "^4.2.0",
+		"prettier": "^2.0.5",
+		"cypress-axe": "^0.12.2",
+		"axe-core": "^4.2.2",
+		"jshint": "^2.13.0"
+	}
+}

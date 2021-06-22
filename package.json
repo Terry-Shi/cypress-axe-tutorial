@@ -25,7 +25,6 @@
 		"mochawesome-merge": "^4.2.0",
 		"prettier": "^2.0.5",
 		"cypress-axe": "^0.12.2",
-		"axe-core": "^4.2.2",
-		"jshint": "^2.13.0"
+		"axe-core": "^4.2.2"
 	}
 }
